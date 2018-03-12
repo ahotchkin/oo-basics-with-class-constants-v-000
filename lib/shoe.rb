@@ -6,14 +6,15 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    BRANDS << brand
   end
 
   def unique_brands(brand)
     if BRANDS.none?(brand)
-      BRANDS << brand
+
     end
   end
-  
+
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"

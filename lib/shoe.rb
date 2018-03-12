@@ -9,11 +9,11 @@ class Shoe
     BRANDS << brand
   end
 
-  def unique_brands(brand)
-    if BRANDS.none?(brand)
-
-    end
-  end
+  # def unique_brands(brand)
+  #   if BRANDS.none?(brand)
+  #
+  #   end
+  # end
 
   def cobble
     self.condition = "new"
